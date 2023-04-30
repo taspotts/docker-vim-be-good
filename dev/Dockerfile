@@ -1,4 +1,4 @@
-FROM brandoncc/neovim-nightly:latest
+FROM --platform=linux/amd64 taspotts/neovim-nightly:latest
 
 WORKDIR /usr/src
 

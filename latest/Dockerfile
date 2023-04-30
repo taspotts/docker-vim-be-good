@@ -1,4 +1,4 @@
-FROM brandoncc/vim-be-good:stable
+FROM --platform=linux/amd64 taspotts/vim-be-good:stable
 
 WORKDIR /usr/src
 
